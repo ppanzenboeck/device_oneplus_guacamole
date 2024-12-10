@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_guacamole.mk
+    $(LOCAL_DIR)/derp_guacamole.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_guacamole-user \
+    derp_guacamole-userdebug \
+    derp_guacamole-eng
